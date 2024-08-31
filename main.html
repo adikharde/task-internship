@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <form action="/signup" method="POST" enctype="multipart/form-data">
+            <h1 id="ar">Registration Form</h1>
+            <input type="text" class="box" id="name" name="name" placeholder="Name" required> <br>
+            <input type="email" class="box" name="email" id="email" placeholder="Email-id" required><br>
+            <input type="number" class="box" name="number" id="number" placeholder="Phone Number" required><br>
+            <input type="password" class="box" name="password" id="password" placeholder="Password" required> <br>
+            <input type="text" class="box" id="gender" name="gender" placeholder="Gender" required> <br>
+            <input type="text" class="box" id="age" name="age" placeholder="Age" required> <br><br>
+           
+            <input type="submit" value="Submit" id="submit">
+            
+        </form>
+    </div>
+</body>
+</html>
